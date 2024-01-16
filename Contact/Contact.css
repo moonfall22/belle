@@ -1,0 +1,217 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald&family=Rubik+Doodle+Shadow&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+*:focus,
+*:active {
+  outline: none !important;
+  -webkit-tap-highlight-color: transparent;
+}
+
+a {
+    color: rgb(244, 207, 176);
+    text-decoration: none;
+    transition: transform 0.3s;
+}
+
+a:hover {
+    transform: scale(1.05);
+}
+
+.Belle {
+    text-align: left;
+    transition: transform 0.3s;
+    cursor: default;
+}
+
+.Belle:hover {
+    transform: scale(1.10);
+}
+
+.header {
+    background-color: rgb(113, 73, 44);
+    color: rgb(244, 207, 176);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 50px;
+    transition: text-decoration var(--duration-short) 
+    ease;
+    box-sizing: inherit;
+    height: 100px;
+}
+
+.header a:hover {
+    border-bottom: 3px solid #fafafa;
+}
+
+.company {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.navbar ul {
+    display: flex;
+    gap: 20px;
+    list-style-type: none;
+}
+
+.products {
+    transition: transform 0.3s;
+}
+.products:hover {
+    transform: scale(1.10);
+}
+
+.home {
+    transition: transform 0.3s;
+}
+.home:hover {
+    transform: scale(1.10);
+}
+
+.profile {
+    transition: transform 0.3s;
+}
+.profile:hover {
+    transform: scale(1.10);
+}
+
+.services {
+    transition: transform 0.3s;
+}
+.services:hover {
+    transform: scale(1.10);
+}
+
+.about {
+    transition: transform 0.3s;
+}
+.about:hover {
+    transform: scale(1.10);
+}
+
+.contact {
+    transition: transform 0.3s;
+}
+.contact:hover {
+    transform: scale(1.10);
+}
+
+.logo {
+    height: 100px;
+    margin-right: -35px;
+    margin-left: -55px;
+    transition: transform 0.3s;
+}
+
+.logo:hover {
+    transform: scale(1.20);
+}
+
+body {
+    background-color: rgb(244, 207, 176);
+}
+
+      /*------------------Body-------------------*/
+
+    .box input[type = "text"],input[type = "email"]{
+        border:0;
+        background: none;
+        display: block;
+        margin: 20px auto;
+        width: 300px;
+        height: 40px;
+        text-align: center;
+        border: 2px solid rgb(113, 73, 44);
+        padding: 14px 10px;
+        outline: none;
+        color:  rgb(113, 73, 44);
+        border-radius: 24px;
+        transition: 0.23s;
+      }
+    .box input[type = "text"]:focus,input[type = "email"]:focus{
+        width: 380px;
+        border-color: rgb(113, 73, 44);
+      }
+    .box textarea {
+        border:0;
+        background: none;
+        display: block;
+        margin: 20px auto;
+        width: 380px;
+        border: 2px solid rgb(113, 73, 44);
+        padding: 14px 10px;
+        outline: none;
+        color:  rgb(113, 73, 44);
+        border-radius: 10px;
+    }
+
+.container {
+    width: 400px;
+    margin: 100px 435px;
+    padding: 20px;
+}
+.header2 {
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 20px;
+    color:  rgb(113, 73, 44);
+}
+.form-group {
+    margin-bottom: 15px;
+}
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+    color:  rgb(113, 73, 44);
+    text-align: center;
+    font-size: 18px;
+}
+  /* .form-group input, .form-group textarea {
+    width: 100%;
+    padding: 5px;
+    font-size: 14px;
+    background-color: rgb(244, 207, 176);
+}
+   .btn {
+    display: block;
+    width: 50%;
+    padding: 10px;
+    margin-left: 85px;
+    background-color:  rgb(113, 73, 44);
+    color: rgb(244, 207, 176);
+    font-size: 16px;
+    border: 24px rgb(244, 207, 176);
+    cursor: pointer;
+}
+.btn:hover {
+    background-color: rgb(244, 207, 176);
+}             */
+.btn {
+    border: 0;
+    background: none;
+    display: block;
+    margin: 10px auto;
+    margin-right: 117px;
+    text-align: center;
+    width: 110px;
+    border: 2px solid rgb(113, 73, 44);
+    padding: 10px 20px;
+    outline: none;
+    color: rgb(113, 73, 44);
+    border-radius: 24px;
+    transition: 0.25s;
+    cursor: pointer;
+    position: relative;
+    top: 20px;
+  }
+  .btn:hover {
+    background: rgb(183, 150, 125);
+  }

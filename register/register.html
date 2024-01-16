@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="register.css">
+        <title>Register</title>
+    </head>
+    <body>
+        <div class="header">
+            <div class="company">
+                <img class="logo" src="../images/logo_belle-removebg-preview.png" alt="logo">
+            <h1 class="main" onclick="window.location.assign('../Project.html')">Belle Self Care</h1>
+            </div>
+            <div class="navbar">
+                <ul>
+                    <li class="home"><a href="../Project.html">Home</a></li>
+                    <li class="products"><a href="../products/ProductGender.html">Products</a></li>
+                    <li class="profile"><a href="../login/Login.html">Profile</a></li>
+                    <li class="about"><a href="../About/About.html">About</a></li>
+                    <li class="contact"><a href="../Contact/Contact.html">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+
+        <form class="box" action="index.html" method="post">
+            <h1>Register</h1>
+            <input type="text" name="" placeholder="Full Name">
+            <input type="email" name="" placeholder="Email">
+            <input type="password" name="" placeholder="Password">
+            <input type="submit" name="" value="Register">
+            <div class="switch">
+                <input type="radio" name="gender" id="male" value="male" checked>
+                <label for="male">Male</label>
+                <input type="radio" name="gender" id="female" value="female">
+                <label for="female">Female</label>
+            </div>
+            <p><a href="../login/Login.html">Already Have One</a></p>
+          </form>
+
+          <footer>
+            <button id="myButton" onclick="window.location.assign('../login/Login.html')">Back</button>
+        </footer>
+    </body>

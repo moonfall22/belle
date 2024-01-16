@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="Login.css">
+        <script src="Login.js"></script>
+        <title>Login</title>
+    </head>
+    <body>
+      <div class="header">
+        <div class="company">
+            <img class="logo" src="../images/logo_belle-removebg-preview.png" alt="logo">
+        <h1 class="main" onclick="window.location.assign('../Project.html')">Belle Self Care</h1>
+        </div>
+        <div class="navbar">
+            <ul>
+                <li class="home"><a href="../Project.html">Home</a></li>
+                <li class="products"><a href="../products/ProductGender.html">Products</a></li>
+                <li class="profile"><a href="Login.html">Profile</a></li>
+                <li class="about"><a href="../About/About.html">About</a></li>
+                <li class="contact"><a href="../Contact/Contact.html">Contact</a></li>
+            </ul>
+        </div>
+    </div>
+
+      <div class="foot">
+          <form class="box" action="index.html" method="post">
+            <h1 class="login">Login</h1>
+            <input type="text" name="" placeholder="Username">
+            <input type="password" name="" placeholder="Password">
+            <input type="submit" name="" value="Login">
+            <p><a href="../register/register.html">Don't Have an Account..??</a></p>
+          </form>
+          <footer>
+              <button id="myButton" onclick="window.location.assign('../Project.html')">Back</button>
+          </footer>
+      </div>
+       <script>
+        function arth(){
+    var email = document.getElementById("email").value;
+    var password = document.getElementById("password").value;
+    if (email=="nuraldinkamberi@gmail.com" && password=="nurbaba123"){
+        window.location.assign(
+          "../Project.html"
+          );
+        alert("Login Successfully");
+    }
+    else{
+        alert("Invalid Information");
+        return;
+    }
+}
+       </script>   
+    </body>
